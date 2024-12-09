@@ -1,0 +1,23 @@
+{
+  "locations": {
+    "title": "Gastronomic Destinations",
+    "subtitle": "Discover our culinary experiences in the most extraordinary places of the mountain range",
+    "description": "Each location has been carefully selected to offer a unique experience where gastronomy merges with breathtaking landscapes",
+    "completed": "Experience completed",
+    "bookNow": "Book now",
+    "moreInfo": "More information",
+    "upcomingTitle": "Upcoming Experiences",
+    "pastTitle": "Past Experiences",
+    "filters": {
+      "all": "All",
+      "upcoming": "Upcoming",
+      "past": "Past"
+    }
+  },
+  "common": {
+    "duration": "Duration",
+    "price": "Price",
+    "location": "Location",
+    "capacity": "Capacity"
+  }
+}

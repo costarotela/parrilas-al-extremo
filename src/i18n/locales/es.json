@@ -1,0 +1,23 @@
+{
+  "locations": {
+    "title": "Destinos Gastronómicos",
+    "subtitle": "Descubre nuestras experiencias culinarias en los lugares más extraordinarios de la cordillera",
+    "description": "Cada ubicación ha sido cuidadosamente seleccionada para ofrecer una experiencia única donde la gastronomía se fusiona con paisajes impresionantes",
+    "completed": "Experiencia realizada",
+    "bookNow": "Reservar ahora",
+    "moreInfo": "Más información",
+    "upcomingTitle": "Próximas Experiencias",
+    "pastTitle": "Experiencias Anteriores",
+    "filters": {
+      "all": "Todas",
+      "upcoming": "Próximas",
+      "past": "Anteriores"
+    }
+  },
+  "common": {
+    "duration": "Duración",
+    "price": "Precio",
+    "location": "Ubicación",
+    "capacity": "Capacidad"
+  }
+}
