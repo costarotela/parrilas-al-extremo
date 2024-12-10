@@ -55,9 +55,11 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="font-display text-5xl lg:text-7xl mb-6"
             >
-              Gastronomía de Altura
+              Sabores Salvajes
               <br />
-              <span className="text-primary">en Estado Puro</span>
+              <span className="text-primary text-2xl lg:text-3xl mt-4 block">
+                Donde la cocina es un viaje y cada plato cuenta una historia
+              </span>
             </motion.h1>
             
             <motion.p 

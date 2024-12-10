@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#2D4739",
+        primary: "#1B4D3E", // Actualizado a English Green
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],

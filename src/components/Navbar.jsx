@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import LanguageSelector from './LanguageSelector';
+import FireBrand from './FireBrand';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,10 +20,11 @@ export default function Navbar() {
     <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="font-display text-2xl text-primary">
-            Wilderness Gastronomy
+          <Link to="/" className="flex-shrink-0">
+            <FireBrand />
           </Link>
           
+          {/* Rest of the Navbar component remains the same */}
           <div className="hidden md:flex md:items-center md:space-x-8">
             <Link 
               to="/" 

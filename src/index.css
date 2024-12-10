@@ -2,57 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Brand Container and Effects */
+.brand-container {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.brand-content {
+  position: relative;
+  z-index: 1;
+}
+
+.brand-text-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.brand-main-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #1B4D3E; /* English Green - tono principal */
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+
+.brand-sub-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: #2D6A4F; /* English Green - tono más claro para el subtítulo */
+  margin-top: -0.25rem;
+}
+
+/* Rest of existing styles */
 body {
   @apply bg-white text-gray-800;
 }
 
-/* Flip Card Styles */
-.flip-card-container {
-  perspective: 1000px;
-  height: 300px;
-}
-
-.flip-card {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  cursor: pointer;
-}
-
-.flip-card-container:hover .flip-card {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.flip-card-front {
-  background-color: white;
-  overflow: hidden;
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-}
-
-.location-card {
-  @apply relative overflow-hidden transition-all duration-300;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.location-card:hover {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.timeline-line {
-  @apply absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-gray-200 via-primary to-gray-200;
-}
+/* ... rest of the CSS ... */
