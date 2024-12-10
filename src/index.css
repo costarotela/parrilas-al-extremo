@@ -6,6 +6,7 @@
 .brand-container {
   position: relative;
   padding: 0.5rem;
+  width: fit-content;
 }
 
 .brand-content {
@@ -16,24 +17,45 @@
 .brand-text-wrapper {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos horizontalmente */
 }
 
 .brand-main-text {
   font-family: 'Playfair Display', serif;
   font-size: 1.75rem;
   font-weight: 800;
-  color: #1B4D3E; /* English Green - tono principal */
+  color: #1B4D3E;
   letter-spacing: 0.05em;
-  line-height: 1.2;
+  line-height: 1.1;
+  text-align: center;
 }
 
 .brand-sub-text {
   font-family: 'Playfair Display', serif;
-  font-size: 0.875rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  color: #2D6A4F; /* English Green - tono más claro para el subtítulo */
-  margin-top: -0.25rem;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: #2D6A4F;
+  margin-top: 0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  max-width: fit-content; /* Se ajusta al contenido */
+  line-height: 1;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .brand-main-text {
+    font-size: 1.875rem;
+  }
+  
+  .brand-sub-text {
+    font-size: 0.65rem;
+    letter-spacing: 0.09em;
+  }
 }
 
 /* Rest of existing styles */

@@ -10,7 +10,7 @@ export default function FireBrand() {
       >
         <div className="brand-text-wrapper">
           <div className="brand-main-text">RUTAS DE FUEGO</div>
-          <div className="brand-sub-text">FIRE ROUTES</div>
+          <div className="brand-sub-text">SERVICIO DE GASTRONOMÍA ESPECIALIZADO</div>
         </div>
       </motion.div>
     </div>

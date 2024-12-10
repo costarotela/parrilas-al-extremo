@@ -24,7 +24,6 @@ export default function Navbar() {
             <FireBrand />
           </Link>
           
-          {/* Rest of the Navbar component remains the same */}
           <div className="hidden md:flex md:items-center md:space-x-8">
             <Link 
               to="/" 
@@ -42,7 +41,7 @@ export default function Navbar() {
               to="/locations" 
               className={`${isActive('/locations') ? 'text-primary font-medium' : 'text-gray-700'} hover:text-primary transition-colors`}
             >
-              Ubicaciones
+              Destinos
             </Link>
             <LanguageSelector />
             <button 
@@ -87,7 +86,7 @@ export default function Navbar() {
                 className={`block px-3 py-2 rounded-md ${isActive('/locations') ? 'text-primary bg-primary/5' : 'text-gray-700'}`}
                 onClick={() => setIsOpen(false)}
               >
-                Ubicaciones
+                Destinos
               </Link>
               <button 
                 onClick={handleBooking}
